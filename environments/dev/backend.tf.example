@@ -1,7 +1,0 @@
-terraform {
-  backend "s3" {
-    bucket = "the_backend_bucked"
-    key = "environment/dev.tfstate"
-    region = "us-east-1"
-  }
-}
